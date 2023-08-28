@@ -16,7 +16,7 @@ const { body, validationResult, query } = require('express-validator');
 const app = express();
 app.use(express.json()); // Middleware to parse incoming requests with JSON payloads
 app.use(cors({
-    origin: "http://localhost:3000"
+    origin: "https://netflix-clone-thtc.onrender.com"
 }))
 
 app.post("/actors", isLoggedInMiddleware, (req, res) => {
