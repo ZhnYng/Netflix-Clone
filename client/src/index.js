@@ -5,7 +5,7 @@ import App from './App';
 import { BrowserRouter as Router } from 'react-router-dom';
 import axios from 'axios';
 
-axios.defaults.baseURL = "http://localhost:5000"
+axios.defaults.baseURL = "https://netflix-clone-thtc.onrender.com"
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
