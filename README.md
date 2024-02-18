@@ -1,6 +1,6 @@
 # Netflix Clone
 
-A Netflix clone built with Express.js, React, TailwindCSS, featuring authentication and input validation with Express.
+A Netflix clone built with Express.js, React, TailwindCSS, featuring authentication and input validation with Express validator.
 
 ## Table of Contents
 - [Features](#features)
