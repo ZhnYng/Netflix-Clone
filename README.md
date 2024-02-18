@@ -24,8 +24,8 @@ A Netflix clone built with Express.js, React, TailwindCSS, featuring authenticat
 - **Express.js**: Backend framework for building the RESTful API.
 - **React**: Frontend library for building the user interface.
 - **TailwindCSS**: Utility-first CSS framework for styling.
-- **MongoDB**: NoSQL database for storing user data and content information.
+- **MySQL**: MySQL database for storing user data and content information.
 - **JWT (JSON Web Tokens)**: For secure authentication and authorization.
 - **Express Validator**: Middleware for input validation in Express.js.
 
-### View the project here https://bednetflixclone.netlify.app/
+### View the project here https://netflix-clone-thtc.onrender.com
