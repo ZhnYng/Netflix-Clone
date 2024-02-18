@@ -11,13 +11,16 @@ const isLoggedInMiddleware = require('../auth/isLoggedInMiddleware');
 const cors = require('cors');
 const ratingDB = require('../model/ratingDB');
 const storeDB = require('../model/storeDB');
+const path = require("path");
 const { body, validationResult, query } = require('express-validator');
 
 const app = express();
 app.use(express.json()); // Middleware to parse incoming requests with JSON payloads
-app.use(cors({
-    origin: "https://bednetflixclone.netlify.app"
-}))
+app.use('/', express.static(path.join(__dirname, '../build')))
+
+app.get("/", (req, res) => {
+    res.sendFile(path.join(__dirname, "../build", "index.html"));
+});
 
 app.post("/actors", isLoggedInMiddleware, (req, res) => {
     // Check that user is admin
