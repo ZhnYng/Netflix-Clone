@@ -32,8 +32,13 @@ Visit our site at https://netflix-clone-thtc.onrender.com/ to experience it for 
 ----------
 
 ![Screenshot 1](demo/home-page.png)
+Screenshot of the home page
+
 ![Screenshot 2](demo/search-page.png)
+Screenshot of the search bar
+
 ![Screenshot 3](demo/rating-page.png)
+Screenshot of the ratings page on each movie
 
 ## Author
 ----------
