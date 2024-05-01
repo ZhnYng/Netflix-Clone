@@ -1,31 +1,59 @@
-# Netflix Clone
+# **Netflix Clone**
+==========================
 
-A Netflix clone built with Express.js, React, TailwindCSS, featuring authentication and input validation with Express validator.
+Netflix Clone is a mock streaming platform built with Express.js, React, TailwindCSS, featuring authentication and input validation with Express Validator.
 
-## Table of Contents
-- [Features](#features)
-- [Technologies Used](#technologies-used)
-- [Installation](#installation)
-- [Usage](#usage)
-- [Contributing](#contributing)
-- [License](#license)
+## How it works
+---------------
+
+Provide a movie catelog experience with authentication, content streaming, and customization options.
+
+## Try it out
+------------
+
+Visit our site at https://netflix-clone-thtc.onrender.com/ to experience it for yourself!
 
 ## Features
+----------
 
-- **Authentication**: Users can sign up, log in, and log out securely.
-- **Netflix-like UI**: Clean and intuitive user interface mimicking Netflix's design.
-- **Content Streaming**: Users can browse and stream movies, TV shows, etc.
-- **Input Validation**: Server-side input validation to ensure data integrity and security.
-- **Responsive Design**: Optimized for various screen sizes for seamless viewing on any device.
-- **Customization**: Users can customize their profile and preferences.
+### Authentication
 
-## Technologies Used
+* Users can sign up, log in, and log out securely.
 
-- **Express.js**: Backend framework for building the RESTful API.
-- **React**: Frontend library for building the user interface.
-- **TailwindCSS**: Utility-first CSS framework for styling.
-- **MySQL**: MySQL database for storing user data and content information.
-- **JWT (JSON Web Tokens)**: For secure authentication and authorization.
-- **Express Validator**: Middleware for input validation in Express.js.
+### Netflix-like UI
 
-### View the project here https://netflix-clone-thtc.onrender.com
+* Clean and intuitive user interface mimicking Netflix's design.
+
+### Input Validation
+
+* Server-side input validation to ensure data integrity and security.
+
+## Screenshots
+----------
+
+![Screenshot 1](demo/home-page.png)
+![Screenshot 2](demo/search-page.png)
+![Screenshot 3](demo/rating-page.png)
+
+## Author
+----------
+
+*Lim Zhen Yang*
+
+## Tech Stack
+---------------
+
+### Frontend
+
+* React
+* TailwindCSS
+
+### Backend
+
+* Express.js
+* MySQL
+* Express Validator
+
+### Security
+
+* JWT (JSON Web Tokens)
